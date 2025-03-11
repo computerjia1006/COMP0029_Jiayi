@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material/styles';
-import Main from 'layouts/Main';
+import Main from 'layout/WebsiteLayout';
 import Container from 'components/Container';
 import { useParams } from 'next/navigation';
 import Typography from '@mui/material/Typography';
@@ -23,7 +23,7 @@ interface NewsData {
   createdAt: string;
   imageUrl: string;
   content: string;
-  author: string;A
+  author: string;
 }
 
 

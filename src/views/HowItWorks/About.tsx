@@ -1,7 +1,7 @@
 import React from 'react';
 import Divider from '@mui/material/Divider';
 
-import Main from 'layout/Main';
+import Main from 'layout/WebsiteLayout';
 import Container from 'components/Container';
 import {
   Hero,

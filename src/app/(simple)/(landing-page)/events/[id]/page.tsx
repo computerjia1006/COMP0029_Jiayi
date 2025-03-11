@@ -9,7 +9,7 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import { useTheme } from '@mui/material/styles';
 import Container from 'components/Container';
-import Main from 'layouts/Main';
+import Main from 'layout/WebsiteLayout';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PersonIcon from '@mui/icons-material/Person';

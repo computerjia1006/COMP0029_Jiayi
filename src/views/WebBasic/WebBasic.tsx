@@ -3,7 +3,7 @@
 import React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import Main from 'layout/Main';
+import Main from 'layout/WebsiteLayout';
 import Container from 'components/Container';
 import {
   Statistics,
