@@ -43,38 +43,6 @@ const applications: NavItemType = {
   type: 'group',
   children: [
     {
-      id: 'chat',
-      title: <FormattedMessage id="chat" />,
-      type: 'item',
-      url: '/apps/chat',
-      icon: icons.MessageOutlined,
-      breadcrumbs: false
-    },
-    {
-      id: 'calendar',
-      title: <FormattedMessage id="calendar" />,
-      type: 'item',
-      url: '/apps/calendar',
-      icon: icons.CalendarOutlined,
-      actions: [
-        {
-          type: NavActionType.LINK,
-          label: 'Full Calendar',
-          icon: icons.LinkOutlined,
-          url: 'https://fullcalendar.io/docs/react',
-          target: true
-        }
-      ]
-    },
-    {
-      id: 'kanban',
-      title: <FormattedMessage id="kanban" />,
-      type: 'item',
-      icon: BuildOutlined,
-      url: '/apps/kanban/board',
-      breadcrumbs: false
-    },
-    {
       id: 'content-management',
       title: <FormattedMessage id="content-management" />,
       type: 'collapse',

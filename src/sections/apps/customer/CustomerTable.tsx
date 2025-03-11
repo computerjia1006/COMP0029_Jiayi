@@ -155,9 +155,9 @@ export default function CustomerTable({ data, columns, modalToggler }: Props) {
             <MenuItem value={3}>Rejected</MenuItem>
           </Select>
           <SelectColumnSorting {...{ getState: table.getState, getAllColumns: table.getAllColumns, setSorting }} />
-          <Stack direction="row" spacing={2} alignItems="center">
+          <Stack direction="row" spacing={2} alignItems="center"> 
             <Button variant="contained" startIcon={<PlusOutlined />} onClick={modalToggler}>
-              Add Customer
+              Add New Project
             </Button>
             <CSVExport
               {...{
