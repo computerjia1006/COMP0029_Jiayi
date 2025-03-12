@@ -6,7 +6,7 @@ import './globals.css';
 import ProviderWrapper from './ProviderWrapper';
 
 export const metadata: Metadata = {
-  title: 'Mantis Material UI React Dashboard Template',
+  title: 'UCL IXN Projects',
   description: 'Mantis Material UI React Dashboard Template'
 };
 

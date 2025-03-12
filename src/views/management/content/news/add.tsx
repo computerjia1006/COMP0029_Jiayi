@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 
 // project imports
 
-import AddShowcaseForm from 'sections/forms/content-management-system/AddShowcase';
+import AddShowcaseForm from 'sections/forms/content-management-system/AddNewsPage';
 
 // ==============================|| FORMS VALIDATION - FORMIK ||============================== //
 

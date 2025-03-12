@@ -74,7 +74,7 @@ interface Props {
 
 // ==============================|| REACT TABLE - LIST ||============================== //
 
-export default function CustomerTable({ data, columns, modalToggler }: Props) {
+export default function NewsTable({ data, columns, modalToggler }: Props) {
   const theme = useTheme();
   const downSM = useMediaQuery(theme.breakpoints.down('sm'));
   const router = useRouter();
@@ -159,7 +159,7 @@ export default function CustomerTable({ data, columns, modalToggler }: Props) {
           <SelectColumnSorting {...{ getState: table.getState, getAllColumns: table.getAllColumns, setSorting }} />
           <Stack direction="row" spacing={2} alignItems="center"> 
             <Button variant="contained" startIcon={<PlusOutlined />} onClick={()=>router.push('/management/content/news/add')}>
-              Add New Project
+              Add News 
             </Button>
 
             <CSVExport

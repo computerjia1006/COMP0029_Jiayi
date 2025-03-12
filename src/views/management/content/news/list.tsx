@@ -20,7 +20,7 @@ import { IndeterminateCheckbox } from 'components/third-party/react-table';
 import EmptyReactTable from 'views/tables/react-table/empty';
 import CustomerModal from 'sections/apps/customer/CustomerModal';
 import AlertCustomerDelete from 'sections/apps/customer/AlertCustomerDelete';
-import CustomerTable from 'sections/apps/customer/CustomerTable';
+import NewsTable from 'sections/management/news/NewsTable';
 
 import { useGetCustomer } from 'api/customer';
 
@@ -175,7 +175,7 @@ export default function NewsListPage() {
 
   return (
     <>
-      <CustomerTable
+      <NewsTable
         {...{
           data: lists,
           columns,

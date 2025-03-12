@@ -1,12 +1,14 @@
 'use client';
 
 import { MouseEvent, useMemo, useState } from 'react';
+import { useRouter } from 'next/navigation'; // Import useRouter
 
 // material-ui
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button'; // Import Button
 
 // third-party
 import { PatternFormat } from 'react-number-format';
@@ -20,7 +22,7 @@ import { IndeterminateCheckbox } from 'components/third-party/react-table';
 import EmptyReactTable from 'views/tables/react-table/empty';
 import CustomerModal from 'sections/apps/customer/CustomerModal';
 import AlertCustomerDelete from 'sections/apps/customer/AlertCustomerDelete';
-import CustomerTable from 'sections/apps/customer/CustomerTable';
+import ShowcaseTable from 'sections/management/showcase/ShowcaseTable';
 
 import { useGetCustomer } from 'api/customer';
 
@@ -36,6 +38,8 @@ import PlusOutlined from '@ant-design/icons/PlusOutlined';
 // ==============================|| CUSTOMER LIST ||============================== //
 
 export default function ShowcaseListPage() {
+  const router = useRouter(); 
+
   const { customersLoading, customers: lists } = useGetCustomer();
 
   const [open, setOpen] = useState<boolean>(false);
@@ -175,7 +179,7 @@ export default function ShowcaseListPage() {
 
   return (
     <>
-      <CustomerTable
+      <ShowcaseTable
         {...{
           data: lists,
           columns,
