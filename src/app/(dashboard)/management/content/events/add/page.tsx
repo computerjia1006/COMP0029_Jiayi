@@ -1,7 +1,7 @@
-import EventListApp from 'views/management/content/events/list';
+import EventAddApp from 'views/management/content/events/add';
 
 // ==============================|| PAGE ||============================== //
 
 export default function EventListPage() {
-  return <EventListApp />;
+  return <EventAddApp />;
 }

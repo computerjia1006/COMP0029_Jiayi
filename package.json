@@ -39,7 +39,7 @@
     "@mui/material": "^6.4.7",
     "@mui/system": "^5.16.6",
     "@mui/x-charts": "^7.15.0",
-    "@mui/x-date-pickers": "^7.12.0",
+    "@mui/x-date-pickers": "^7.27.3",
     "@mui/x-tree-view": "^7.12.0",
     "@react-pdf/renderer": "^3.4.4",
     "@tanstack/match-sorter-utils": "^8.19.4",
